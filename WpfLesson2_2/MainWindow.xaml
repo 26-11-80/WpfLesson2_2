@@ -1,0 +1,50 @@
+﻿<Window x:Class="WpfLesson2_2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfLesson2_2"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="500" Width="400">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="100">
+            </RowDefinition>
+        </Grid.RowDefinitions>
+        <TextBlock Grid.Row="0" Padding="20,20,20,5" Background="#FFCFE0E0" FlowDirection="LeftToRight" Margin="0,0,-0.4,22.8" Text="12456789" FontSize="24" Cursor="None" TextAlignment="Right" TextDecorations="{x:Null}"/>
+        <Border BorderBrush="#FF968A8A" BorderThickness="2" Margin="0,0,-0.4,22.8"> </Border>
+        <UniformGrid Rows="6" Columns="4" Margin="0,79,-0.4,-369.2">
+            <Button Content="%" Margin="0.5" Background="#FFB2BCC8" FontSize="16"/>
+            <Button Content="CE" Margin="0.5" Background="#FFB2BCC8" FontSize="16"/>
+            <Button Content="C" Margin="0.5" Background="#FFB2BCC8" FontSize="16"/>
+            <Button Content="←" Margin="0.5,0.5,1,0.5" Background="#FFB2BCC8" FontSize="16"/>
+            <Button Content="1/x" Margin="0.5" Background="#FFB2BCC8"  FontSize="16" />
+            <Button Content="x²" Margin="0.5" Background="#FFB2BCC8" FontSize="16"/>
+            <Button Content="√x" Margin="0.5" Background="#FFB2BCC8" FontSize="16"/>
+            <Button Content="÷" Margin="0.5,0.5,1,0.5" Background="#FFB2BCC8" FontSize="16"/>
+            <Button Content="7" Margin="0.5" Background="#FFDCDCE0" FontSize="16"/>
+            <Button Content="8" Margin="0.5" Background="#FFDCDCE0" FontSize="16"/>
+            <Button Content="9" Margin="0.5" Background="#FFDCDCE0" FontSize="16"/>
+            <Button Content="x" Margin="0.5,0.5,1,0.5" Background="#FFB2BCC8" FontSize="16"/>
+            <Button Content="4" Margin="0.5" Background="#FFDCDCE0" FontSize="16"/>
+            <Button Content="5" Margin="0.5" Background="#FFDCDCE0" FontSize="16"/>
+            <Button Content="6" Margin="0.5" Background="#FFD6D6DA" FontSize="16"/>
+            <Button Content="-" Margin="0.5,0.5,1,0.5" Background="#FFB2BCC8" FontSize="16"/>
+            <Button Content="1" Margin="0.5" Background="#FFDCDCE0" FontSize="16"/>
+            <Button Content="2" Margin="0.5" Background="#FFD6D6DA" FontSize="16"/>
+            <Button Content="3" Margin="0.5" Background="#FFD6D6DA" FontSize="16"/>
+            <Button Content="+" Margin="0.5" Background="#FFB2BCC8" FontSize="16"/>
+            <Button Content="+/-" Margin="0.5,0.5,0.5,1" Background="#FFD6D6DA" FontSize="16"/>
+            <Button Content="0" Margin="0.5,0.5,0.5,1" Background="#FFD6D6DA" FontSize="16"/>
+            <Button Content="," Margin="0.5,0.5,0.5,1" Background="#FFD6D6DA" FontSize="16"/>
+            <Button Content="=" Margin="0.5,0.5,1,1" Background="#FFB2BCC8" FontSize="16"/>
+        </UniformGrid>
+
+
+
+    </Grid>
+</Window>
+
+                    
+                
+   
